@@ -1,3 +1,8 @@
+使用 Cifar-10 來實驗照片的 Gradient 區域比較重要的想法
+===
+### 在input map 加上模糊或是色塊的亂數
+1. 檔案：making_error_2.py(0228 已處理結束，但效果不佳，認為是照片 pixel 太少造成模糊處理效果不明顯)
+ 
 分別在input images、model variables、feature maps加上error
 
 1.input images:  making_error.py
